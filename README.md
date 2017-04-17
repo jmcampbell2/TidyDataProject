@@ -21,11 +21,17 @@ You should create one R script called run_analysis.R that does the following.
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Included Files
--'README.md': This file; explains how all of the scripts work and how they are connected
--'CodeBook.md': A code book that describes the variables, the data, and the transformations and work performed to clean up the data
--'run_analysis.R': The R code used to conduct the data transformations described above
--'tidydata.txt': The output file from step 5 of the course project instructions
+- 'README.md': This file; explains how all of the scripts work and how they are connected
+- 'CodeBook.md': A code book that describes the variables, the data, and the transformations and work performed to clean up the data
+- 'run_analysis.R': The R code used to conduct the data transformations described above
+- 'tidydata.txt': The output file from step 5 of the course project instructions
 
 ## What Makes Data Tidy
+The principles guiding "tidy data" are as follows:
+ 1. Each variable forms a column
+ 2. Each observation forms a row
+ 3. Each type of observational unit forms a table  
+
+The data in the output file have been formatted to adhere to these requirements, and therefore qualify as Tidy Data.
 
 ## Process Summary

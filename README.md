@@ -35,3 +35,9 @@ The principles guiding "tidy data" are as follows:
 The data in the output file have been formatted to adhere to these requirements, and therefore qualify as Tidy Data.
 
 ## Process Summary
+  1. Download files and install necessary R packages
+  2. Read in data files
+  3. Join data files into single data set
+  4. Select desired measurement columns
+  5. Apply appropriate labels
+  6. Create independant data set with variables' averages

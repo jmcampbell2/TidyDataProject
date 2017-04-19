@@ -42,4 +42,4 @@ The data in the output file have been formatted to adhere to these requirements,
   5. Apply appropriate labels
   6. Create independant data set with variables' averages
 
-**_This analysis assumes that the necessary R packages "dyplr" and "data.table" are installed and loaded._**
+**_This R script assumes that the necessary R packages "dyplr" and "data.table" are installed and loaded._**

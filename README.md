@@ -14,11 +14,11 @@ Here are the data for the project:
 
 You should create one R script called run_analysis.R that does the following.
 
-  1. Merges the training and the test sets to create one data set.
-  2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  1. Merges the training and the test sets to create one data set
+  2. Extracts only the measurements on the mean and standard deviation for each measurement
   3. Uses descriptive activity names to name the activities in the data set
-  4. Appropriately labels the data set with descriptive variable names.
-  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  4. Appropriately labels the data set with descriptive variable names
+  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ## Included Files
 - 'README.md': This file; explains how all of the scripts work and how they are connected
@@ -35,9 +35,11 @@ The principles guiding "tidy data" are as follows:
 The data in the output file have been formatted to adhere to these requirements, and therefore qualify as Tidy Data.
 
 ## Process Summary
-  1. Download files and install necessary R packages
+  1. Download files 
   2. Read in data files
   3. Join data files into single data set
   4. Select desired measurement columns
   5. Apply appropriate labels
   6. Create independant data set with variables' averages
+
+**_This analysis assumes that the necessary R packages "dyplr" and "data.table" are installed and loaded._**

@@ -68,91 +68,91 @@ In the README.txt file from [A Public Domain Dataset for Human Activity Recognit
 
 ## The Variables
 
-The variables represented in the tidy data set:
+The variables represented in the tidy data set are described in the following table:
 
 | Column Position | Column Name  | Description  |
 |------|------|------|
-|1| subjectId | a unique identifier for each subject, 1-30 |
-|2| activityId | a unique identifier for each activity, 1-6 |
-|3| activityType | the string descriptor corresponding to the activityId, as follows: <ol><li> WALKING</li><li> WALKING_UPSTAIRS</li><li> WALKING_DOWNSTAIRS</li><li> SITTING</li><li> STANDING</li><li> LAYING</li></ol>|
-|4|tBodyAcc-mean()-X
-|5|tBodyAcc-mean()-Y
-|6|tBodyAcc-mean()-Z
-|7|tBodyAcc-std()-X
-|8|tBodyAcc-std()-Y
-|9|tBodyAcc-std()-Z 
-|10|tGravityAcc-mean()-X
-|11|tGravityAcc-mean()-Y
-|12|tGravityAcc-mean()-Z
-|13|tGravityAcc-std()-X
-|14|tGravityAcc-std()-Y
-|15|tGravityAcc-std()-Z 
-|16|tBodyAccJerk-mean()-X
-|17|tBodyAccJerk-mean()-Y 
-|18|tBodyAccJerk-mean()-Z
-|19|tBodyAccJerk-std()-X
-|20|tBodyAccJerk-std()-Y
-|21|tBodyAccJerk-std()-Z
-|22|tBodyGyro-mean()-X
-|23|tBodyGyro-mean()-Y
-|24|tBodyGyro-mean()-Z
-|25|tBodyGyro-std()-X 
-|26|tBodyGyro-std()-Y 
-|27|tBodyGyro-std()-Z
-|28|tBodyGyroJerk-mean()-X
-|29|tBodyGyroJerk-mean()-Y
-|30|tBodyGyroJerk-mean()-Z
-|31|tBodyGyroJerk-std()-X 
-|32|tBodyGyroJerk-std()-Y
-|33|tBodyGyroJerk-std()-Z
-|34|tBodyAccMag-mean() 
-|35|tBodyAccMag-std()
-|36|tGravityAccMag-mean()
-|37|tGravityAccMag-std()
-|38|tBodyAccJerkMag-mean()
-|39|tBodyAccJerkMag-std()
-|40|tBodyGyroMag-mean()
-|41|tBodyGyroMag-std() 
-|42|tBodyGyroJerkMag-mean()
-|43|tBodyGyroJerkMag-std()
-|44|fBodyAcc-mean()-X 
-|45|fBodyAcc-mean()-Y
-|46|fBodyAcc-mean()-Z
-|47|fBodyAcc-std()-X 
-|48|fBodyAcc-std()-Y 
-|49|fBodyAcc-std()-Z
-|50|fBodyAcc-meanFreq()-X
-|51|fBodyAcc-meanFreq()-Y
-|52|fBodyAcc-meanFreq()-Z
-|53|fBodyAccJerk-mean()-X
-|54|fBodyAccJerk-mean()-Y
-|55|fBodyAccJerk-mean()-Z
-|56|fBodyAccJerk-std()-X 
-|57|fBodyAccJerk-std()-Y
-|58|fBodyAccJerk-std()-Z
-|59|fBodyAccJerk-meanFreq()-X
-|60|fBodyAccJerk-meanFreq()-Y
-|61|fBodyAccJerk-meanFreq()-Z 
-|62|fBodyGyro-mean()-X 
-|63|fBodyGyro-mean()-Y
-|64|fBodyGyro-mean()-Z 
-|65|fBodyGyro-std()-X
-|66|fBodyGyro-std()-Y
-|67|fBodyGyro-std()-Z
-|68|fBodyGyro-meanFreq()-X
-|69|fBodyGyro-meanFreq()-Y
-|70|fBodyGyro-meanFreq()-Z
-|71|fBodyAccMag-mean()
-|72|fBodyAccMag-std()
-|73|fBodyAccMag-meanFreq()
-|74|fBodyBodyAccJerkMag-mean()
-|75|fBodyBodyAccJerkMag-std()
-|76|fBodyBodyAccJerkMag-meanFreq() 
-|77|fBodyBodyGyroMag-mean()
-|78|fBodyBodyGyroMag-std()
-|79|fBodyBodyGyroMag-meanFreq()
-|80|fBodyBodyGyroJerkMag-mean()
-|81|fBodyBodyGyroJerkMag-std()
-|82|fBodyBodyGyroJerkMag-meanFreq() | mean of the named HAR measurements |
+|1| subjectId | Numeric sequential variable, a unique identifier for each subject, 1-30 |
+|2| activityId | Numeric variable, a unique identifier for each activity, 1-6 |
+|3| activityType | String variable, descriptor corresponding to the activityId, as follows: <ol><li> WALKING</li><li> WALKING_UPSTAIRS</li><li> WALKING_DOWNSTAIRS</li><li> SITTING</li><li> STANDING</li><li> LAYING</li></ol>|
+|4|tBodyAcc-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|5|tBodyAcc-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|6|tBodyAcc-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|7|tBodyAcc-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|8|tBodyAcc-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|9|tBodyAcc-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|10|tGravityAcc-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|11|tGravityAcc-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|12|tGravityAcc-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|13|tGravityAcc-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|14|tGravityAcc-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|15|tGravityAcc-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|16|tBodyAccJerk-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|17|tBodyAccJerk-mean()-Y  |Numeric variable, mean of the HAR measurements for the named feature |
+|18|tBodyAccJerk-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|19|tBodyAccJerk-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|20|tBodyAccJerk-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|21|tBodyAccJerk-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|22|tBodyGyro-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|23|tBodyGyro-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|24|tBodyGyro-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|25|tBodyGyro-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|26|tBodyGyro-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|27|tBodyGyro-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|28|tBodyGyroJerk-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|29|tBodyGyroJerk-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|30|tBodyGyroJerk-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|31|tBodyGyroJerk-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|32|tBodyGyroJerk-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|33|tBodyGyroJerk-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|34|tBodyAccMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|35|tBodyAccMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|36|tGravityAccMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|37|tGravityAccMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|38|tBodyAccJerkMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|39|tBodyAccJerkMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|40|tBodyGyroMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|41|tBodyGyroMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|42|tBodyGyroJerkMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|43|tBodyGyroJerkMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|44|fBodyAcc-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|45|fBodyAcc-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|46|fBodyAcc-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|47|fBodyAcc-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|48|fBodyAcc-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|49|fBodyAcc-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|50|fBodyAcc-meanFreq()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|51|fBodyAcc-meanFreq()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|52|fBodyAcc-meanFreq()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|53|fBodyAccJerk-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|54|fBodyAccJerk-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|55|fBodyAccJerk-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|56|fBodyAccJerk-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|57|fBodyAccJerk-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|58|fBodyAccJerk-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|59|fBodyAccJerk-meanFreq()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|60|fBodyAccJerk-meanFreq()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|61|fBodyAccJerk-meanFreq()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|62|fBodyGyro-mean()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|63|fBodyGyro-mean()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|64|fBodyGyro-mean()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|65|fBodyGyro-std()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|66|fBodyGyro-std()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|67|fBodyGyro-std()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|68|fBodyGyro-meanFreq()-X |Numeric variable, mean of the HAR measurements for the named feature |
+|69|fBodyGyro-meanFreq()-Y |Numeric variable, mean of the HAR measurements for the named feature |
+|70|fBodyGyro-meanFreq()-Z |Numeric variable, mean of the HAR measurements for the named feature |
+|71|fBodyAccMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|72|fBodyAccMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|73|fBodyAccMag-meanFreq() |Numeric variable, mean of the HAR measurements for the named feature |
+|74|fBodyBodyAccJerkMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|75|fBodyBodyAccJerkMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|76|fBodyBodyAccJerkMag-meanFreq() |Numeric variable, mean of the HAR measurements for the named feature |
+|77|fBodyBodyGyroMag-mean() |Numeric variable, mean of the HAR measurements for the named features |
+|78|fBodyBodyGyroMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|79|fBodyBodyGyroMag-meanFreq() |Numeric variable, mean of the HAR measurements for the named feature |
+|80|fBodyBodyGyroJerkMag-mean() |Numeric variable, mean of the HAR measurements for the named feature |
+|81|fBodyBodyGyroJerkMag-std() |Numeric variable, mean of the HAR measurements for the named feature |
+|82|fBodyBodyGyroJerkMag-meanFreq() |Numeric variable, mean of the HAR measurements for the named feature |
 
 

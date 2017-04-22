@@ -40,6 +40,6 @@ The data in the output file have been formatted to adhere to these requirements,
   3. Apply appropriate labels
   4. Join data files into single data set
   5. Select desired measurement columns
-  6. Create independant data set with variables' averages
+  6. Create independant data set with variables' means and write to new file
 
-**_This R script assumes that the necessary R packages "dyplr" and "data.table" are installed and loaded._**
+**_This R script assumes that the necessary R packages "plyr", "dyplr" and "data.table" are installed and loaded._**
